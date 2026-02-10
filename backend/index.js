@@ -33,6 +33,6 @@ app.get("/api/uv", async (req, res) => {
     }
 })
 
-app.listen(port, () => {
-    console.log(`listening on the port ${port}`);
+app.listen(PORT, () => {
+    console.log(`listening on the port ${PORT}`);
 })
